@@ -13,6 +13,7 @@ keras = "2.3.1"
 tensorflow = "2.2.0"
 dill = "^0.3.3"
 pyicu = "^2.6"
+numpy = "1.19.5"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

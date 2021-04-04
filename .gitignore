@@ -134,3 +134,4 @@ data/ingestion/lyrics.txt
 data/preprocessing/*
 data/training/*
 **/.idea/*
+tests/access_token
