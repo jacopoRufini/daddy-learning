@@ -131,5 +131,6 @@ dmypy.json
 # --- CUSTOM ---
 
 data/ingestion/lyrics.txt
-data/ingestion/preprocessing/*
-data/ingestion/training/*
+data/preprocessing/*
+data/training/*
+**/.idea/*
