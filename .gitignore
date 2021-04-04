@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# --- CUSTOM ---
+
+data/ingestion/lyrics.txt
+data/ingestion/preprocessing/*
+data/ingestion/training/*

@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "reggaeton"
+version = "0.1.0"
+description = ""
+authors = ["jack <jacoporufini97@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+#PyICU = "1.8"
+#pycld2 = "0.3"
+beautifulsoup4 = "4.6.0"
+polyglot = "16.7.4"
+lyricsgenius = "1.8.6"
+keras = "2.3.1"
+tensorflow = "2.2.0"
+dill = "^0.3.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
