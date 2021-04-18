@@ -31,7 +31,7 @@ python3 ingestion.py
 # Uses the data just downloaded to do some preprocessing and prepare the dataset for the training process
 python3 preprocessor.py
 
-# |Uses keras APIs to train the AI based on the output of preprocessor.py. 
+# Uses keras APIs to train the AI based on the output of preprocessor.py. 
 python3 training.py
 
 # Uses the model just created to output some cool spanish text.
