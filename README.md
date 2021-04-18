@@ -21,20 +21,20 @@ cd reggaeton
 ```
 Once inside the reggaeton directory, there will be different scripts:
 ```sh
- # here you can set some global variables that will be used for training / predicting
+ # Here you can set some global variables that will be used for training / predicting
 vim constants.py
 
-# uses the list of artists, stored in the repo, to download any song that it can find.
+# Uses the list of artists, stored in the repo, to download any song that it can find.
 # This can take a bit of time
 python3 ingestion.py
 
-# uses the data just downloaded to do some preprocessing and prepare the dataset for the training process
+# Uses the data just downloaded to do some preprocessing and prepare the dataset for the training process
 python3 preprocessor.py
 
-# uses keras APIs to train the AI based on the output of preprocessor.py. 
+# |Uses keras APIs to train the AI based on the output of preprocessor.py. 
 python3 training.py
 
-# uses the model just created to output some cool spanish text.
+# Uses the model just created to output some cool spanish text.
 # It requires an input as large as the WINDOW_SIZE found in constants.py
 python3 write.py 
 ```
